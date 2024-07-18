@@ -6,9 +6,9 @@ The website provides a user-friendly interface to explore informative content ab
 
 ## Technologies Used
 
->-ReactJS
->-CSS
->-JavaScript
+ReactJS
+CSS
+JavaScript
 
 This project is currently under development, but feel free to explore the code and leave feedback!
 
