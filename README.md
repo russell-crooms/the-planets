@@ -1,6 +1,6 @@
 # The Planets
 
-This is a ReactJS web application showcasing information about the eight planets in our solar system. It serves as a test >project to improve my JavaScript skills.
+This is a ReactJS web application showcasing information about the eight planets in our solar system. It serves as a test project to improve my JavaScript skills.
 
 The website provides a user-friendly interface to explore informative content about each planet, spread across eight dedicated pages.
 
