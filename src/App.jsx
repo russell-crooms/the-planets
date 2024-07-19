@@ -1,17 +1,20 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom';
-import Earth from './components/Earth';
-import Jupiter from './components/Jupiter';
-import Mars from './components/Mars';
-import Mercury from './components/Mercury';
-import Neptune from './components/Neptune';
-import Saturn from './components/Saturn';
-import Uranus from './components/Uranus';
-import Venus from './components/Venus';
+import Earth from './pages/Earth';
+import Jupiter from './pages/Jupiter';
+import Mars from './pages/Mars';
+import Mercury from './pages/Mercury';
+import Neptune from './pages/Neptune';
+import Saturn from './pages/Saturn';
+import Uranus from './pages/Uranus';
+import Venus from './pages/Venus';
+import Navbar from './components/Navbar';
 
 
 const App = () => {
   return (
+    <div>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Earth />}/>
         <Route path="/:earth" element={<Earth />}/>
@@ -23,6 +26,7 @@ const App = () => {
         <Route path="/:uranus" element={<Uranus />}/>
         <Route path="/:neptune" element={<Neptune />}/>
       </Routes>
+    </div>
   );
 };
 
